@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <title>Assignment 5:GUI Testing:Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="apant16.js"></script> -->
+    <link rel="stylesheet" href="apant16.css" />
+  </head>
+  <body>
+    <div class="container-sm landing-parent">
+      <div class="vocab-app-intro">
+        <img
+          src="..\others\question_banner.png"
+          alt="img failed to load"
+          class="word-logo"
+        />
+        <h6>Meaning of this Word:</h6>
+
+        <br />
+        <!-- <span id="low-span">Low</span>
+        <input
+          type="range"
+          id="difficulty"
+          name="difficulty"
+          min="1"
+          max="3"
+          value="1"
+        /> -->
+        <!-- <span id="high-span"> High</span> -->
+        <div class="answer-options">
+          <!-- <p id="total-questions-text">Total Questions:</p> -->
+          <p class="the-word">The word</p>
+          <input
+            type="radio"
+            class="preference"
+            name="preference"
+            value="10"
+            checked
+          />
+          <label for="preference">Meaning 1</label>
+
+          <br />
+          <input type="radio" class="preference" name="preference" value="15" />
+          <label for="preference">Meaning 2</label>
+
+          <br />
+          <input type="radio" class="preference" name="preference" value="20" />
+          <label for="preference">meaning 3</label>
+        </div>
+        <button class="average-button">Next/Result</button>
+      </div>
+    </div>
+  </body>
+</html>

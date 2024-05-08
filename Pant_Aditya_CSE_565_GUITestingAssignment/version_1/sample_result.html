@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <title>Assignment 5:GUI Testing:Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="apant16.js"></script> -->
+    <link rel="stylesheet" href="apant16.css" />
+  </head>
+  <body>
+    <div class="container-sm landing-parent">
+      <div class="vocab-app-intro">
+        <img
+          src="..\others\result_art.png"
+          alt="img failed to load"
+          class="word-logo"
+        />
+        <h6>See How You Did:</h6>
+
+        <br />
+        <!-- <span id="low-span">Low</span>
+        <input
+          type="range"
+          id="difficulty"
+          name="difficulty"
+          min="1"
+          max="3"
+          value="1"
+        /> -->
+        <!-- <span id="high-span"> High</span> -->
+        <div class="answer-options">
+          <!-- <p id="total-questions-text">Total Questions:</p> -->
+          <p class="the-result">Correct:</p>
+          <p class="the-result">Total:</p>
+          <p class="the-result">Percentage:</p>
+
+          <input
+            type="checkbox"
+            class="preference"
+            name="preference"
+            value="1"
+          />
+          <label for="preference"
+            >Would you recommend this quiz to your friend?</label
+          >
+          <br />
+          <label for="difficulty" id="rating-label">Rate the quiz:</label>
+          <input
+            type="range"
+            id="rating-input"
+            name="difficulty"
+            min="1"
+            max="10"
+            value="1"
+          />
+        </div>
+        <button class="average-button">Take Again</button>
+      </div>
+    </div>
+  </body>
+</html>
